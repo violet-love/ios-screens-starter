@@ -29,4 +29,7 @@ class NumberedViewController: UIViewController {
             label.text = String(vcCount)
         }
     }
+    @IBAction func popToRed(_ sender: Any) {
+        navigationController?.popToRootViewController(animated: true)
+    }
 }
